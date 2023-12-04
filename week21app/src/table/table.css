@@ -1,0 +1,5 @@
+.table{
+    border: solid rgb(61, 61, 61) 1px;
+    display: flex;
+    justify-content: space-between;
+}
