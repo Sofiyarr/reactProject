@@ -122,31 +122,6 @@ class UserGreeting  extends React.Component{
     console.error('Error:', error)
   });
 
-/*       fetch(`/api/words/${this.state.id}/update`, {
-        mode: 'no-cors',
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json;charset=utf-8',
-        },
-        body: JSON.stringify({english: this.state.english,
-        russian: this.state.russian,
-        transcription: this.state.transcription})
-      })
-      .then(response => {
-        if (response.ok) {
-            return response.json();
-        } else {
-            throw new Error('Something went wrong ...');
-        }
-    })
-    .then((response) => {
-      console.log(response)
-
-    })
-    .catch((error) =>{
-      console.error('Error:', error)
-    }); */
-
     }
 
     render(){

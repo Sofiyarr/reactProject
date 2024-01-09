@@ -89,23 +89,3 @@ function Previous(props){
 function Button(props){
     return <button onClick={props.onClick} className="check">Проверить</button>;
 }
-
-
-/* export default class Test extends React.Component{
-    state = {
-        english: data[0]
-    }
-
-    handleClick = () => {
-        this.setState(({english}) => ({
-            english: english + 1
-        })
-        )
-    }
-
-    render(){
-    return <div>
-        {this.state.english}
-        <button onClick={this.handleClick}></button>
-    </div>}
-} */
